@@ -1,0 +1,704 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "name": "Karnıyarık",
+      "ingredients": ["Patlıcan", "Kıyma", "Soğan", "Domates", "Biber"],
+      "instructions": [
+        "Patlıcanları boydan ikiye kesin",
+        "Kıymayı soğan ile kavurun",
+        "Patlıcanları kızartın",
+        "İç harcı doldurun",
+        "180 derecede 25 dakika pişirin"
+      ],
+      "cookingTime": 45,
+      "servings": 4
+    },
+    {
+      "id": 2,
+      "name": "Mercimek Çorbası",
+      "ingredients": ["Kırmızı mercimek", "Soğan", "Havuç", "Un", "Tereyağı"],
+      "instructions": [
+        "Mercimekleri yıkayın",
+        "Sebzeleri doğrayın",
+        "Tüm malzemeleri tencereye koyun",
+        "40 dakika pişirin",
+        "Blenderdan geçirin"
+      ],
+      "cookingTime": 40,
+      "servings": 6
+    },
+    {
+      "id": 3,
+      "name": "İskender",
+      "ingredients": ["Döner eti", "Pide", "Tereyağı", "Domates sosu", "Yoğurt"],
+      "instructions": [
+        "Pideleri küçük parçalara bölün",
+        "Üzerine döner etini yerleştirin",
+        "Domates sosunu dökün",
+        "Yoğurdu ekleyin",
+        "Kızdırılmış tereyağını gezdirin"
+      ],
+      "cookingTime": 20,
+      "servings": 4
+    },
+    {
+      "id": 4,
+      "name": "Mantı",
+      "ingredients": ["Un", "Yumurta", "Kıyma", "Yoğurt", "Tereyağı", "Salça"],
+      "instructions": [
+        "Hamuru yoğurun ve incecik açın",
+        "İç harcı hazırlayın",
+        "Küçük mantıları kapatın",
+        "Kaynayan suda haşlayın",
+        "Yoğurt ve sosla servis yapın"
+      ],
+      "cookingTime": 90,
+      "servings": 6
+    },
+    {
+      "id": 5,
+      "name": "Lahmacun",
+      "ingredients": ["Un", "Kıyma", "Soğan", "Maydanoz", "Domates", "Biber"],
+      "instructions": [
+        "Hamuru hazırlayın ve dinlendirin",
+        "İç harcı karıştırın",
+        "Hamuru çok ince açın",
+        "Harcı yayın",
+        "Yüksek ısıda fırında pişirin"
+      ],
+      "cookingTime": 30,
+      "servings": 8
+    },
+    {
+      "id": 6,
+      "name": "Kuru Fasulye",
+      "ingredients": ["Kuru fasulye", "Soğan", "Domates salçası", "Zeytinyağı", "Et suyu"],
+      "instructions": [
+        "Fasulyeleri bir gece önceden ıslatın",
+        "Soğanları kavurun",
+        "Salçayı ekleyip kavurun",
+        "Fasulyeler ve et suyunu ekleyin",
+        "Kısık ateşte pişirin"
+      ],
+      "cookingTime": 60,
+      "servings": 6
+    },
+    {
+      "id": 7,
+      "name": "İmam Bayıldı",
+      "ingredients": ["Patlıcan", "Soğan", "Sarımsak", "Domates", "Zeytinyağı", "Maydanoz"],
+      "instructions": [
+        "Patlıcanları alacalı soyun",
+        "Zeytinyağında kızartın",
+        "İç harcı hazırlayın",
+        "Patlıcanları yarıp doldurun",
+        "Kısık ateşte pişirin"
+      ],
+      "cookingTime": 50,
+      "servings": 4
+    },
+    {
+      "id": 8,
+      "name": "Patlıcan Musakka",
+      "ingredients": ["Patlıcan", "Kıyma", "Soğan", "Domates", "Beşamel sos"],
+      "instructions": [
+        "Patlıcanları kızartın",
+        "Kıymalı harcı hazırlayın",
+        "Beşamel sosu yapın",
+        "Malzemeleri dizin",
+        "Fırında pişirin"
+      ],
+      "cookingTime": 60,
+      "servings": 6
+    },
+    {
+      "id": 9,
+      "name": "Etli Pide",
+      "ingredients": ["Un", "Maya", "Kıyma", "Soğan", "Kaşar peyniri"],
+      "instructions": [
+        "Hamuru mayalandırın",
+        "İç harcı hazırlayın",
+        "Pideleri şekillendirin",
+        "Harcı yayın",
+        "Fırında pişirin"
+      ],
+      "cookingTime": 40,
+      "servings": 4
+    },
+    {
+      "id": 10,
+      "name": "Kısır",
+      "ingredients": ["İnce bulgur", "Domates salçası", "Yeşillik", "Limon", "Nar ekşisi"],
+      "instructions": [
+        "Bulguru ıslatın",
+        "Sebzeleri ince doğrayın",
+        "Baharatları ekleyin",
+        "Tüm malzemeleri karıştırın",
+        "Dinlendirip servis yapın"
+      ],
+      "cookingTime": 20,
+      "servings": 6
+    },
+    {
+      "id": 11,
+      "name": "Adana Kebap",
+      "ingredients": ["Kıyma", "Kuyruk yağı", "Kırmızı biber", "Soğan", "Baharatlar"],
+      "instructions": [
+        "Kıymayı yoğurun",
+        "Şişlere geçirin",
+        "Mangalda pişirin",
+        "Közlenmiş biberle servis yapın",
+        "Yanında soğan ve sumak sunun"
+      ],
+      "cookingTime": 30,
+      "servings": 4
+    },
+    {
+      "id": 12,
+      "name": "Zeytinyağlı Yaprak Sarma",
+      "ingredients": ["Asma yaprağı", "Pirinç", "Soğan", "Zeytinyağı", "Baharatlar"],
+      "instructions": [
+        "Yaprakları haşlayın",
+        "İç pilavı hazırlayın",
+        "Yaprakları sarın",
+        "Tencereye dizin",
+        "Kısık ateşte pişirin"
+      ],
+      "cookingTime": 60,
+      "servings": 8
+    },
+    {
+      "id": 13,
+      "name": "Künefe",
+      "ingredients": ["Kadayıf", "Peynir", "Tereyağı", "Şerbet", "Antep fıstığı"],
+      "instructions": [
+        "Kadayıfı parçalayın",
+        "Peyniri yerleştirin",
+        "Tereyağı ile pişirin",
+        "Şerbeti dökün",
+        "Sıcak servis yapın"
+      ],
+      "cookingTime": 25,
+      "servings": 6
+    },
+    {
+      "id": 14,
+      "name": "İçli Köfte",
+      "ingredients": ["Bulgur", "Kıyma", "Ceviz", "Soğan", "Baharatlar"],
+      "instructions": [
+        "Dış hamuru yoğurun",
+        "İç harcı hazırlayın",
+        "Köfteleri şekillendirin",
+        "İçini doldurun",
+        "Kızartın veya haşlayın"
+      ],
+      "cookingTime": 90,
+      "servings": 8
+    },
+    {
+      "id": 15,
+      "name": "Tarhana Çorbası",
+      "ingredients": ["Tarhana", "Soğan", "Domates salçası", "Nane", "Tereyağı"],
+      "instructions": [
+        "Soğanları kavurun",
+        "Tarhanayı ekleyin",
+        "Su ilave edin",
+        "Kısık ateşte pişirin",
+        "Naneli yağ ile servis yapın"
+      ],
+      "cookingTime": 25,
+      "servings": 6
+    },
+    {
+      "id": 16,
+      "name": "Kabak Dolması",
+      "ingredients": ["Kabak", "Pirinç", "Kıyma", "Soğan", "Dereotu"],
+      "instructions": [
+        "Kabakları oyun",
+        "İç harcı hazırlayın",
+        "Kabakları doldurun",
+        "Tencereye dizin",
+        "Kısık ateşte pişirin"
+      ],
+      "cookingTime": 45,
+      "servings": 6
+    },
+    {
+      "id": 17,
+      "name": "Şiş Kebap",
+      "ingredients": ["Kuzu eti", "Biber", "Domates", "Soğan", "Zeytinyağı"],
+      "instructions": [
+        "Eti marine edin",
+        "Sebzeleri doğrayın",
+        "Şişlere dizin",
+        "Mangalda pişirin",
+        "Lavaş ile servis yapın"
+      ],
+      "cookingTime": 40,
+      "servings": 4
+    },
+    {
+      "id": 18,
+      "name": "Su Böreği",
+      "ingredients": ["Yufka", "Peynir", "Maydanoz", "Yumurta", "Süt"],
+      "instructions": [
+        "Yufkaları haşlayın",
+        "İç harcı hazırlayın",
+        "Katmanları dizin",
+        "Üzerine yumurta sürün",
+        "Fırında pişirin"
+      ],
+      "cookingTime": 60,
+      "servings": 8
+    },
+    {
+      "id": 19,
+      "name": "Aşure",
+      "ingredients": ["Buğday", "Kuru fasulye", "Nohut", "Kuru meyveler", "Şeker"],
+      "instructions": [
+        "Tahılları haşlayın",
+        "Kuru meyveleri ekleyin",
+        "Şeker ilave edin",
+        "Karıştırarak pişirin",
+        "Süsleyip servis yapın"
+      ],
+      "cookingTime": 120,
+      "servings": 12
+    },
+    {
+      "id": 20,
+      "name": "Kağıt Kebabı",
+      "ingredients": ["Kuzu eti", "Patates", "Havuç", "Mantar", "Tereyağı"],
+      "instructions": [
+        "Sebzeleri doğrayın",
+        "Eti marine edin",
+        "Yağlı kağıda sarın",
+        "Fırında pişirin",
+        "Sıcak servis yapın"
+      ],
+      "cookingTime": 45,
+      "servings": 4
+    },
+    {
+      "id": 21,
+      "name": "Hünkar Beğendi",
+      "ingredients": ["Dana eti", "Patlıcan", "Un", "Süt", "Kaşar peyniri"],
+      "instructions": [
+        "Eti güveçte pişirin",
+        "Patlıcanları közleyin",
+        "Beğendi hazırlayın",
+        "Eti beğendinin üzerine koyun",
+        "Sıcak servis yapın"
+      ],
+      "cookingTime": 75,
+      "servings": 6
+    },
+    {
+      "id": 22,
+      "name": "Ezogelin Çorbası",
+      "ingredients": ["Kırmızı mercimek", "Bulgur", "Pirinç", "Salça", "Nane"],
+      "instructions": [
+        "Mercimeği haşlayın",
+        "Diğer bakliyatları ekleyin",
+        "Salçalı sosu hazırlayın",
+        "Baharatları ekleyin",
+        "Naneli yağ ile servis yapın"
+      ],
+      "cookingTime": 35,
+      "servings": 6
+    },
+    {
+      "id": 23,
+      "name": "Kelle Paça Çorbası",
+      "ingredients": ["Kelle eti", "Paça", "Sarımsak", "Sirke", "Limon"],
+      "instructions": [
+        "Etleri haşlayın",
+        "Suyu süzün",
+        "Sarımsak ve sirke ekleyin",
+        "Tekrar kaynatın",
+        "Limon ile servis yapın"
+      ],
+      "cookingTime": 180,
+      "servings": 8
+    },
+    {
+      "id": 24,
+      "name": "Ali Nazik",
+      "ingredients": ["Kuzu eti", "Patlıcan", "Yoğurt", "Sarımsak", "Tereyağı"],
+      "instructions": [
+        "Patlıcanları közleyin",
+        "Yoğurtlu püresi yapın",
+        "Eti kavurun",
+        "Pürenin üzerine eti koyun",
+        "Tereyağı gezdirin"
+      ],
+      "cookingTime": 50,
+      "servings": 4
+    },
+    {
+      "id": 25,
+      "name": "Keşkek",
+      "ingredients": ["Buğday", "Kuzu eti", "Tereyağı", "Soğan", "Tuz"],
+      "instructions": [
+        "Buğdayı ıslatın",
+        "Etle birlikte pişirin",
+        "Dövün",
+        "Tereyağı ekleyin",
+        "Sıcak servis yapın"
+      ],
+      "cookingTime": 240,
+      "servings": 10
+    },
+    {
+      "id": 26,
+      "name": "Pırasa Yemeği",
+      "ingredients": ["Pırasa", "Havuç", "Zeytinyağı", "Pirinç", "Limon"],
+      "instructions": [
+        "Pırasaları doğrayın",
+        "Havuçları ekleyin",
+        "Pirinci ilave edin",
+        "Kısık ateşte pişirin",
+        "Limon ile servis yapın"
+      ],
+      "cookingTime": 35,
+      "servings": 4
+    },
+    {
+      "id": 27,
+      "name": "Karnıbahar Kızartması",
+      "ingredients": ["Karnıbahar", "Yumurta", "Un", "Galeta unu", "Sıvı yağ"],
+      "instructions": [
+        "Karnıbaharı haşlayın",
+        "Una bulayın",
+        "Yumurtaya batırın",
+        "Galeta ununa bulayın",
+        "Kızartın"
+      ],
+      "cookingTime": 30,
+      "servings": 4
+    },
+    {
+      "id": 28,
+      "name": "Tas Kebabı",
+      "ingredients": ["Dana eti", "Patates", "Havuç", "Soğan", "Defne yaprağı"],
+      "instructions": [
+        "Eti doğrayın",
+        "Sebzeleri ekleyin",
+        "Baharatları koyun",
+        "Kısık ateşte pişirin",
+        "Sıcak servis yapın"
+      ],
+      "cookingTime": 90,
+      "servings": 6
+    },
+    {
+      "id": 29,
+      "name": "Kıymalı Pide",
+      "ingredients": ["Un", "Maya", "Kıyma", "Soğan", "Maydanoz"],
+      "instructions": [
+        "Hamuru mayalandırın",
+        "Kıymalı harcı hazırlayın",
+        "Pideleri şekillendirin",
+        "Harcı yayın",
+        "Fırında pişirin"
+      ],
+      "cookingTime": 45,
+      "servings": 6
+    },
+    {
+      "id": 30,
+      "name": "Zeytinyağlı Taze Fasulye",
+      "ingredients": ["Taze fasulye", "Soğan", "Domates", "Zeytinyağı", "Sarımsak"],
+      "instructions": [
+        "Fasulyeyi ayıklayın",
+        "Soğanları kavurun",
+        "Domatesi ekleyin",
+        "Fasulyeyi ilave edin",
+        "Kısık ateşte pişirin"
+      ],
+      "cookingTime": 40,
+      "servings": 4
+    },
+    {
+      "id": 31,
+      "name": "Tavuk Sote",
+      "ingredients": ["Tavuk göğsü", "Biber", "Mantar", "Soğan", "Domates"],
+      "instructions": [
+        "Tavukları kuşbaşı doğrayın",
+        "Sebzeleri doğrayın",
+        "Tavukları kavurun",
+        "Sebzeleri ekleyin",
+        "Baharatlarla tatlandırın"
+      ],
+      "cookingTime": 25,
+      "servings": 4
+    },
+    {
+      "id": 32,
+      "name": "Ispanaklı Börek",
+      "ingredients": ["Yufka", "Ispanak", "Peynir", "Yumurta", "Zeytinyağı"],
+      "instructions": [
+        "Ispanağı kavurun",
+        "İç harcı hazırlayın",
+        "Yufkaları serin",
+        "Harcı koyup sarın",
+        "Fırında pişirin"
+      ],
+      "cookingTime": 40,
+      "servings": 8
+    },
+    {
+      "id": 33,
+      "name": "Kuru Patlıcan Dolması",
+      "ingredients": ["Kuru patlıcan", "Pirinç", "Kıyma", "Soğan", "Salça"],
+      "instructions": [
+        "Patlıcanları ıslatın",
+        "İç harcı hazırlayın",
+        "Patlıcanları doldurun",
+        "Tencereye dizin",
+        "Kısık ateşte pişirin"
+      ],
+      "cookingTime": 60,
+      "servings": 6
+    },
+    {
+      "id": 34,
+      "name": "Hamsi Tava",
+      "ingredients": ["Hamsi", "Mısır unu", "Tuz", "Karabiber", "Sıvı yağ"],
+      "instructions": [
+        "Hamsileri temizleyin",
+        "Mısır ununa bulayın",
+        "Tavada kızartın",
+        "Fazla yağını alın",
+        "Sıcak servis yapın"
+      ],
+      "cookingTime": 20,
+      "servings": 4
+    },
+    {
+      "id": 35,
+      "name": "Kıymalı Ispanak",
+      "ingredients": ["Ispanak", "Kıyma", "Soğan", "Sarımsak", "Zeytinyağı"],
+      "instructions": [
+        "Ispanakları doğrayın",
+        "Kıymayı kavurun",
+        "Ispanakları ekleyin",
+        "Sarımsakları ilave edin",
+        "Kısık ateşte pişirin"
+      ],
+      "cookingTime": 30,
+      "servings": 4
+    },
+    {
+      "id": 36,
+      "name": "Patates Oturtma",
+      "ingredients": ["Patates", "Kıyma", "Beşamel sos", "Kaşar peyniri", "Süt"],
+      "instructions": [
+        "Patatesleri haşlayın",
+        "Kıymalı harcı hazırlayın",
+        "Beşamel sosu yapın",
+        "Katmanları dizin",
+        "Fırında pişirin"
+      ],
+      "cookingTime": 50,
+      "servings": 6
+    },
+    {
+      "id": 37,
+      "name": "Tavuklu Pilav",
+      "ingredients": ["Pirinç", "Tavuk göğsü", "Tereyağı", "Şehriye", "Et suyu"],
+      "instructions": [
+        "Pirinci ıslatın",
+        "Tavukları pişirin",
+        "Şehriyeyi kavurun",
+        "Pirinci ekleyin",
+        "Et suyu ile pişirin"
+      ],
+      "cookingTime": 35,
+      "servings": 6
+    },
+    {
+      "id": 38,
+      "name": "Etli Bamya",
+      "ingredients": ["Bamya", "Kuzu eti", "Soğan", "Domates", "Limon"],
+      "instructions": [
+        "Bamyaları temizleyin",
+        "Eti kavurun",
+        "Bamyaları ekleyin",
+        "Domates ve soğan ilave edin",
+        "Kısık ateşte pişirin"
+      ],
+      "cookingTime": 55,
+      "servings": 4
+    },
+    {
+      "id": 39,
+      "name": "Fırında Türlü",
+      "ingredients": ["Patlıcan", "Kabak", "Patates", "Havuç", "Domates"],
+      "instructions": [
+        "Sebzeleri doğrayın",
+        "Fırın kabına dizin",
+        "Zeytinyağı gezdirin",
+        "Baharatları serpip",
+        "Fırında pişirin"
+      ],
+      "cookingTime": 45,
+      "servings": 6
+    },
+    {
+      "id": 40,
+      "name": "Tavuklu Mantar Sote",
+      "ingredients": ["Tavuk göğsü", "Mantar", "Krema", "Soğan", "Sarımsak"],
+      "instructions": [
+        "Tavukları doğrayın",
+        "Mantarları dilimleyin",
+        "Tavukları pişirin",
+        "Mantarları ekleyin",
+        "Krema ile tatlandırın"
+      ],
+      "cookingTime": 30,
+      "servings": 4
+    },
+    {
+      "id": 41,
+      "name": "Kıymalı Patates",
+      "ingredients": ["Patates", "Kıyma", "Soğan", "Domates", "Biber"],
+      "instructions": [
+        "Patatesleri dilimleyin",
+        "Kıymayı kavurun",
+        "Sebzeleri ekleyin",
+        "Patatesleri dizin",
+        "Kısık ateşte pişirin"
+      ],
+      "cookingTime": 40,
+      "servings": 4
+    },
+    {
+      "id": 42,
+      "name": "Zeytinyağlı Kereviz",
+      "ingredients": ["Kereviz", "Havuç", "Patates", "Zeytinyağı", "Limon"],
+      "instructions": [
+        "Kerevizleri soyun",
+        "Sebzeleri doğrayın",
+        "Zeytinyağında soteleyin",
+        "Su ekleyip pişirin",
+        "Limon ile servis yapın"
+      ],
+      "cookingTime": 35,
+      "servings": 4
+    },
+    {
+      "id": 43,
+      "name": "Tavuklu Şehriye Çorbası",
+      "ingredients": ["Şehriye", "Tavuk", "Havuç", "Tereyağı", "Limon"],
+      "instructions": [
+        "Tavuk suyunu hazırlayın",
+        "Şehriyeyi kavurun",
+        "Havuçları ekleyin",
+        "Çorbayı kaynatın",
+        "Limon ile servis yapın"
+      ],
+      "cookingTime": 30,
+      "servings": 6
+    },
+    {
+      "id": 44,
+      "name": "Etli Nohut",
+      "ingredients": ["Nohut", "Kuzu eti", "Soğan", "Domates salçası", "Biber salçası"],
+      "instructions": [
+        "Nohutları ıslatın",
+        "Eti kavurun",
+        "Salçaları ekleyin",
+        "Nohutları ilave edin",
+        "Kısık ateşte pişirin"
+      ],
+      "cookingTime": 90,
+      "servings": 6
+    },
+    {
+      "id": 45,
+      "name": "Kabak Mücver",
+      "ingredients": ["Kabak", "Yumurta", "Un", "Dereotu", "Peynir"],
+      "instructions": [
+        "Kabakları rendeleyin",
+        "Malzemeleri karıştırın",
+        "Hamur kıvamına getirin",
+        "Kaşıkla tavaya dökün",
+        "İki tarafını kızartın"
+      ],
+      "cookingTime": 25,
+      "servings": 4
+    },
+    {
+      "id": 46,
+      "name": "Patlıcan Oturtma",
+      "ingredients": ["Patlıcan", "Kıyma", "Beşamel sos", "Kaşar peyniri", "Süt"],
+      "instructions": [
+        "Patlıcanları kızartın",
+        "Kıymalı harcı hazırlayın",
+        "Beşamel sosu yapın",
+        "Katmanları dizin",
+        "Fırında pişirin"
+      ],
+      "cookingTime": 55,
+      "servings": 6
+    },
+    {
+      "id": 47,
+      "name": "Tavuklu Bezelye",
+      "ingredients": ["Bezelye", "Tavuk göğsü", "Havuç", "Soğan", "Tereyağı"],
+      "instructions": [
+        "Tavukları doğrayın",
+        "Sebzeleri hazırlayın",
+        "Tavukları pişirin",
+        "Bezelyeleri ekleyin",
+        "Havuçlarla tatlandırın"
+      ],
+      "cookingTime": 35,
+      "servings": 4
+    },
+    {
+      "id": 48,
+      "name": "Kıymalı Karnabahar",
+      "ingredients": ["Karnabahar", "Kıyma", "Soğan", "Domates", "Biber"],
+      "instructions": [
+        "Karnabaharı haşlayın",
+        "Kıymayı kavurun",
+        "Sebzeleri ekleyin",
+        "Karnabaharı ilave edin",
+        "Kısık ateşte pişirin"
+      ],
+      "cookingTime": 40,
+      "servings": 4
+    },
+    {
+      "id": 49,
+      "name": "Zeytinyağlı Enginar",
+      "ingredients": ["Enginar", "Havuç", "Patates", "Bezelye", "Zeytinyağı"],
+      "instructions": [
+        "Enginarları temizleyin",
+        "Sebzeleri doğrayın",
+        "Zeytinyağında soteleyin",
+        "Su ekleyip pişirin",
+        "Limon ile servis yapın"
+      ],
+      "cookingTime": 45,
+      "servings": 4
+    },
+    {
+      "id": 50,
+      "name": "Tavuklu Bulgur Pilavı",
+      "ingredients": ["Bulgur", "Tavuk göğsü", "Soğan", "Domates salçası", "Tereyağı"],
+      "instructions": [
+        "Tavukları pişirin",
+        "Soğanları kavurun",
+        "Bulguru ekleyin",
+        "Tavuk suyuyla pişirin",
+        "Demlendirip servis yapın"
+      ],
+      "cookingTime": 35,
+      "servings": 6
+    }
+  ]
+} 
