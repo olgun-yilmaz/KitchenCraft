@@ -13,9 +13,13 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
+import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import androidx.navigation.navArgument
+import com.olgunyilmaz.kitchencraft.ui.screens.RecipeListScreen
+import com.olgunyilmaz.kitchencraft.ui.screens.RecipeDetailScreen
 import com.olgunyilmaz.kitchencraft.ui.theme.KitchenCraftTheme
 import com.olgunyilmaz.kitchencraft.viewmodel.RecipeViewModel
 
@@ -25,7 +29,12 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             KitchenCraftTheme {
-                KitchenCraftApp()
+                Surface(
+                    modifier = Modifier.fillMaxSize(),
+                    color = MaterialTheme.colorScheme.background
+                ) {
+                    KitchenCraftApp()
+                }
             }
         }
     }
@@ -45,11 +54,15 @@ fun KitchenCraftApp() {
                 }
             )
         }
-        composable("recipeDetail/{recipeId}") { backStackEntry ->
-            val recipeId = backStackEntry.arguments?.getString("recipeId")?.toIntOrNull() ?: return@composable
+        composable(
+            route = "recipeDetail/{recipeId}",
+            arguments = listOf(navArgument("recipeId") { type = NavType.IntType })
+        ) { backStackEntry ->
+            val recipeId = backStackEntry.arguments?.getInt("recipeId") ?: return@composable
             RecipeDetailScreen(
                 viewModel = viewModel,
-                recipeId = recipeId
+                recipeId = recipeId,
+                onBackClick = { navController.popBackStack() }
             )
         }
     }
@@ -89,7 +102,8 @@ fun RecipeListScreen(
 @Composable
 fun RecipeDetailScreen(
     viewModel: RecipeViewModel,
-    recipeId: Int
+    recipeId: Int,
+    onBackClick: () -> Unit
 ) {
     val recipes by viewModel.recipes.collectAsState()
     val recipe = recipes.find { it.id == recipeId }
