@@ -1,5 +1,6 @@
 package com.olgunyilmaz.kitchencraft.ui.screens
 
+import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
@@ -11,6 +12,14 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.olgunyilmaz.kitchencraft.viewmodel.RecipeViewModel
+import androidx.compose.foundation.Image
+import androidx.compose.runtime.remember
+import androidx.compose.ui.platform.LocalContext
+import androidx.compose.foundation.layout.aspectRatio
+import androidx.compose.ui.graphics.asImageBitmap
+import androidx.compose.ui.layout.ContentScale
+import android.graphics.drawable.BitmapDrawable
+import coil.compose.AsyncImage
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -25,10 +34,10 @@ fun RecipeDetailScreen(
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { Text(recipe?.name ?: "Recipe Details") },
+                title = { Text(recipe?.name ?: "Tarif Detayları") },
                 navigationIcon = {
                     IconButton(onClick = onBackClick) {
-                        Icon(Icons.Default.ArrowBack, contentDescription = "Back")
+                        Icon(Icons.Default.ArrowBack, contentDescription = "Geri")
                     }
                 }
             )
@@ -42,6 +51,18 @@ fun RecipeDetailScreen(
                     .padding(16.dp)
                     .verticalScroll(rememberScrollState())
             ) {
+                // Display the image
+                AsyncImage(
+                    model = recipe.imageUrl,
+                    contentDescription = recipe.name,
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .aspectRatio(16f/9f),
+                    contentScale = ContentScale.Crop
+                )
+
+                Spacer(modifier = Modifier.height(16.dp))
+
                 // Cooking Information
                 ElevatedCard(
                     modifier = Modifier.fillMaxWidth()
@@ -54,21 +75,21 @@ fun RecipeDetailScreen(
                     ) {
                         Column(horizontalAlignment = androidx.compose.ui.Alignment.CenterHorizontally) {
                             Text(
-                                text = "${it.cookingTime}",
+                                text = "${recipe.cookingTime}",
                                 style = MaterialTheme.typography.titleLarge
                             )
                             Text(
-                                text = "Minutes",
+                                text = "Dakika",
                                 style = MaterialTheme.typography.bodyMedium
                             )
                         }
                         Column(horizontalAlignment = androidx.compose.ui.Alignment.CenterHorizontally) {
                             Text(
-                                text = "${it.servings}",
+                                text = "${recipe.servings}",
                                 style = MaterialTheme.typography.titleLarge
                             )
                             Text(
-                                text = "Servings",
+                                text = "Porsiyon",
                                 style = MaterialTheme.typography.bodyMedium
                             )
                         }
@@ -79,7 +100,7 @@ fun RecipeDetailScreen(
 
                 // Ingredients
                 Text(
-                    text = "Ingredients",
+                    text = "Malzemeler",
                     style = MaterialTheme.typography.titleLarge,
                     modifier = Modifier.padding(bottom = 8.dp)
                 )
@@ -89,7 +110,7 @@ fun RecipeDetailScreen(
                     Column(
                         modifier = Modifier.padding(16.dp)
                     ) {
-                        it.ingredients.forEach { ingredient ->
+                        recipe.ingredients.forEach { ingredient ->
                             Text(
                                 text = "• $ingredient",
                                 style = MaterialTheme.typography.bodyLarge,
@@ -103,7 +124,7 @@ fun RecipeDetailScreen(
 
                 // Instructions
                 Text(
-                    text = "Instructions",
+                    text = "Hazırlanışı",
                     style = MaterialTheme.typography.titleLarge,
                     modifier = Modifier.padding(bottom = 8.dp)
                 )
@@ -113,7 +134,7 @@ fun RecipeDetailScreen(
                     Column(
                         modifier = Modifier.padding(16.dp)
                     ) {
-                        it.instructions.forEachIndexed { index, instruction ->
+                        recipe.instructions.forEachIndexed { index, instruction ->
                             Text(
                                 text = "${index + 1}. $instruction",
                                 style = MaterialTheme.typography.bodyLarge,

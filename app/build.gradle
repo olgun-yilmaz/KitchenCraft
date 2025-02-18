@@ -60,4 +60,7 @@ dependencies {
 
     implementation 'com.google.code.gson:gson:2.10.1'
     implementation "androidx.compose.material:material-icons-extended:1.5.4"
+
+    implementation (libs.picasso)
+    implementation libs.coil.compose
 }

@@ -3,6 +3,7 @@
     {
       "id": 1,
       "name": "Karnıyarık",
+      "imageUrl": "https://d17wu0fn6x6rgz.cloudfront.net/img/w/tarif/mgt/frnda-karnyark-313.webp",
       "ingredients": ["Patlıcan", "Kıyma", "Soğan", "Domates", "Biber"],
       "instructions": [
         "Patlıcanları boydan ikiye kesin",
@@ -17,6 +18,7 @@
     {
       "id": 2,
       "name": "Mercimek Çorbası",
+      "imageUrl": "https://image.hurimg.com/i/hurriyet/75/750x422/60e4662a4e3fe0195427e88c.jpg",
       "ingredients": ["Kırmızı mercimek", "Soğan", "Havuç", "Un", "Tereyağı"],
       "instructions": [
         "Mercimekleri yıkayın",
@@ -31,6 +33,7 @@
     {
       "id": 3,
       "name": "İskender",
+      "imageUrl": "https://d17wu0fn6x6rgz.cloudfront.net/img/w/tarif/mgt/iskender.webp",
       "ingredients": ["Döner eti", "Pide", "Tereyağı", "Domates sosu", "Yoğurt"],
       "instructions": [
         "Pideleri küçük parçalara bölün",
@@ -45,6 +48,7 @@
     {
       "id": 4,
       "name": "Mantı",
+      "imageUrl": "https://www.odamax.com/omag/wp-content/uploads/2023/03/en-iyi-turk-yemekleri.jpg",
       "ingredients": ["Un", "Yumurta", "Kıyma", "Yoğurt", "Tereyağı", "Salça"],
       "instructions": [
         "Hamuru yoğurun ve incecik açın",
@@ -59,6 +63,7 @@
     {
       "id": 5,
       "name": "Lahmacun",
+      "imageUrl": "https://www.odamax.com/omag/wp-content/uploads/2023/03/en-iyi-turk-yemekleri.jpg",
       "ingredients": ["Un", "Kıyma", "Soğan", "Maydanoz", "Domates", "Biber"],
       "instructions": [
         "Hamuru hazırlayın ve dinlendirin",
@@ -73,6 +78,7 @@
     {
       "id": 6,
       "name": "Kuru Fasulye",
+      "imageUrl": "https://www.odamax.com/omag/wp-content/uploads/2023/03/en-iyi-turk-yemekleri.jpg",
       "ingredients": ["Kuru fasulye", "Soğan", "Domates salçası", "Zeytinyağı", "Et suyu"],
       "instructions": [
         "Fasulyeleri bir gece önceden ıslatın",
@@ -87,6 +93,7 @@
     {
       "id": 7,
       "name": "İmam Bayıldı",
+      "imageUrl": "https://www.odamax.com/omag/wp-content/uploads/2023/03/en-iyi-turk-yemekleri.jpg",
       "ingredients": ["Patlıcan", "Soğan", "Sarımsak", "Domates", "Zeytinyağı", "Maydanoz"],
       "instructions": [
         "Patlıcanları alacalı soyun",
@@ -101,6 +108,7 @@
     {
       "id": 8,
       "name": "Patlıcan Musakka",
+      "imageUrl": "https://www.odamax.com/omag/wp-content/uploads/2023/03/en-iyi-turk-yemekleri.jpg",
       "ingredients": ["Patlıcan", "Kıyma", "Soğan", "Domates", "Beşamel sos"],
       "instructions": [
         "Patlıcanları kızartın",
@@ -115,6 +123,7 @@
     {
       "id": 9,
       "name": "Etli Pide",
+      "imageUrl": "https://www.odamax.com/omag/wp-content/uploads/2023/03/en-iyi-turk-yemekleri.jpg",
       "ingredients": ["Un", "Maya", "Kıyma", "Soğan", "Kaşar peyniri"],
       "instructions": [
         "Hamuru mayalandırın",
@@ -129,6 +138,7 @@
     {
       "id": 10,
       "name": "Kısır",
+      "imageUrl": "https://www.odamax.com/omag/wp-content/uploads/2023/03/en-iyi-turk-yemekleri.jpg",
       "ingredients": ["İnce bulgur", "Domates salçası", "Yeşillik", "Limon", "Nar ekşisi"],
       "instructions": [
         "Bulguru ıslatın",
@@ -143,6 +153,7 @@
     {
       "id": 11,
       "name": "Adana Kebap",
+      "imageUrl": "https://www.odamax.com/omag/wp-content/uploads/2023/03/en-iyi-turk-yemekleri.jpg",
       "ingredients": ["Kıyma", "Kuyruk yağı", "Kırmızı biber", "Soğan", "Baharatlar"],
       "instructions": [
         "Kıymayı yoğurun",
@@ -157,6 +168,7 @@
     {
       "id": 12,
       "name": "Zeytinyağlı Yaprak Sarma",
+      "imageUrl": "https://www.odamax.com/omag/wp-content/uploads/2023/03/en-iyi-turk-yemekleri.jpg",
       "ingredients": ["Asma yaprağı", "Pirinç", "Soğan", "Zeytinyağı", "Baharatlar"],
       "instructions": [
         "Yaprakları haşlayın",
@@ -171,6 +183,7 @@
     {
       "id": 13,
       "name": "Künefe",
+      "imageUrl": "https://www.odamax.com/omag/wp-content/uploads/2023/03/en-iyi-turk-yemekleri.jpg",
       "ingredients": ["Kadayıf", "Peynir", "Tereyağı", "Şerbet", "Antep fıstığı"],
       "instructions": [
         "Kadayıfı parçalayın",
@@ -185,6 +198,7 @@
     {
       "id": 14,
       "name": "İçli Köfte",
+      "imageUrl": "https://www.odamax.com/omag/wp-content/uploads/2023/03/en-iyi-turk-yemekleri.jpg",
       "ingredients": ["Bulgur", "Kıyma", "Ceviz", "Soğan", "Baharatlar"],
       "instructions": [
         "Dış hamuru yoğurun",
@@ -199,6 +213,7 @@
     {
       "id": 15,
       "name": "Tarhana Çorbası",
+      "imageUrl": "https://www.odamax.com/omag/wp-content/uploads/2023/03/en-iyi-turk-yemekleri.jpg",
       "ingredients": ["Tarhana", "Soğan", "Domates salçası", "Nane", "Tereyağı"],
       "instructions": [
         "Soğanları kavurun",
@@ -213,6 +228,7 @@
     {
       "id": 16,
       "name": "Kabak Dolması",
+      "imageUrl": "https://www.odamax.com/omag/wp-content/uploads/2023/03/en-iyi-turk-yemekleri.jpg",
       "ingredients": ["Kabak", "Pirinç", "Kıyma", "Soğan", "Dereotu"],
       "instructions": [
         "Kabakları oyun",
@@ -227,6 +243,7 @@
     {
       "id": 17,
       "name": "Şiş Kebap",
+      "imageUrl": "https://www.odamax.com/omag/wp-content/uploads/2023/03/en-iyi-turk-yemekleri.jpg",
       "ingredients": ["Kuzu eti", "Biber", "Domates", "Soğan", "Zeytinyağı"],
       "instructions": [
         "Eti marine edin",
@@ -241,6 +258,7 @@
     {
       "id": 18,
       "name": "Su Böreği",
+      "imageUrl": "https://www.odamax.com/omag/wp-content/uploads/2023/03/en-iyi-turk-yemekleri.jpg",
       "ingredients": ["Yufka", "Peynir", "Maydanoz", "Yumurta", "Süt"],
       "instructions": [
         "Yufkaları haşlayın",
@@ -255,6 +273,7 @@
     {
       "id": 19,
       "name": "Aşure",
+      "imageUrl": "https://www.odamax.com/omag/wp-content/uploads/2023/03/en-iyi-turk-yemekleri.jpg",
       "ingredients": ["Buğday", "Kuru fasulye", "Nohut", "Kuru meyveler", "Şeker"],
       "instructions": [
         "Tahılları haşlayın",
@@ -269,6 +288,7 @@
     {
       "id": 20,
       "name": "Kağıt Kebabı",
+      "imageUrl": "https://www.odamax.com/omag/wp-content/uploads/2023/03/en-iyi-turk-yemekleri.jpg",
       "ingredients": ["Kuzu eti", "Patates", "Havuç", "Mantar", "Tereyağı"],
       "instructions": [
         "Sebzeleri doğrayın",
@@ -283,6 +303,7 @@
     {
       "id": 21,
       "name": "Hünkar Beğendi",
+      "imageUrl": "https://www.odamax.com/omag/wp-content/uploads/2023/03/en-iyi-turk-yemekleri.jpg",
       "ingredients": ["Dana eti", "Patlıcan", "Un", "Süt", "Kaşar peyniri"],
       "instructions": [
         "Eti güveçte pişirin",
@@ -297,6 +318,7 @@
     {
       "id": 22,
       "name": "Ezogelin Çorbası",
+      "imageUrl": "https://www.odamax.com/omag/wp-content/uploads/2023/03/en-iyi-turk-yemekleri.jpg",
       "ingredients": ["Kırmızı mercimek", "Bulgur", "Pirinç", "Salça", "Nane"],
       "instructions": [
         "Mercimeği haşlayın",
@@ -311,6 +333,7 @@
     {
       "id": 23,
       "name": "Kelle Paça Çorbası",
+      "imageUrl": "https://www.odamax.com/omag/wp-content/uploads/2023/03/en-iyi-turk-yemekleri.jpg",
       "ingredients": ["Kelle eti", "Paça", "Sarımsak", "Sirke", "Limon"],
       "instructions": [
         "Etleri haşlayın",
@@ -325,6 +348,7 @@
     {
       "id": 24,
       "name": "Ali Nazik",
+      "imageUrl": "https://www.odamax.com/omag/wp-content/uploads/2023/03/en-iyi-turk-yemekleri.jpg",
       "ingredients": ["Kuzu eti", "Patlıcan", "Yoğurt", "Sarımsak", "Tereyağı"],
       "instructions": [
         "Patlıcanları közleyin",
@@ -339,6 +363,7 @@
     {
       "id": 25,
       "name": "Keşkek",
+      "imageUrl": "https://www.odamax.com/omag/wp-content/uploads/2023/03/en-iyi-turk-yemekleri.jpg",
       "ingredients": ["Buğday", "Kuzu eti", "Tereyağı", "Soğan", "Tuz"],
       "instructions": [
         "Buğdayı ıslatın",
@@ -353,6 +378,7 @@
     {
       "id": 26,
       "name": "Pırasa Yemeği",
+      "imageUrl": "https://www.odamax.com/omag/wp-content/uploads/2023/03/en-iyi-turk-yemekleri.jpg",
       "ingredients": ["Pırasa", "Havuç", "Zeytinyağı", "Pirinç", "Limon"],
       "instructions": [
         "Pırasaları doğrayın",
@@ -367,6 +393,7 @@
     {
       "id": 27,
       "name": "Karnıbahar Kızartması",
+      "imageUrl": "https://www.odamax.com/omag/wp-content/uploads/2023/03/en-iyi-turk-yemekleri.jpg",
       "ingredients": ["Karnıbahar", "Yumurta", "Un", "Galeta unu", "Sıvı yağ"],
       "instructions": [
         "Karnıbaharı haşlayın",
@@ -381,6 +408,7 @@
     {
       "id": 28,
       "name": "Tas Kebabı",
+      "imageUrl": "https://www.odamax.com/omag/wp-content/uploads/2023/03/en-iyi-turk-yemekleri.jpg",
       "ingredients": ["Dana eti", "Patates", "Havuç", "Soğan", "Defne yaprağı"],
       "instructions": [
         "Eti doğrayın",
@@ -395,6 +423,7 @@
     {
       "id": 29,
       "name": "Kıymalı Pide",
+      "imageUrl": "https://www.odamax.com/omag/wp-content/uploads/2023/03/en-iyi-turk-yemekleri.jpg",
       "ingredients": ["Un", "Maya", "Kıyma", "Soğan", "Maydanoz"],
       "instructions": [
         "Hamuru mayalandırın",
@@ -409,6 +438,7 @@
     {
       "id": 30,
       "name": "Zeytinyağlı Taze Fasulye",
+      "imageUrl": "https://www.odamax.com/omag/wp-content/uploads/2023/03/en-iyi-turk-yemekleri.jpg",
       "ingredients": ["Taze fasulye", "Soğan", "Domates", "Zeytinyağı", "Sarımsak"],
       "instructions": [
         "Fasulyeyi ayıklayın",
@@ -423,6 +453,7 @@
     {
       "id": 31,
       "name": "Tavuk Sote",
+      "imageUrl": "https://www.odamax.com/omag/wp-content/uploads/2023/03/en-iyi-turk-yemekleri.jpg",
       "ingredients": ["Tavuk göğsü", "Biber", "Mantar", "Soğan", "Domates"],
       "instructions": [
         "Tavukları kuşbaşı doğrayın",
@@ -437,6 +468,7 @@
     {
       "id": 32,
       "name": "Ispanaklı Börek",
+      "imageUrl": "https://www.odamax.com/omag/wp-content/uploads/2023/03/en-iyi-turk-yemekleri.jpg",
       "ingredients": ["Yufka", "Ispanak", "Peynir", "Yumurta", "Zeytinyağı"],
       "instructions": [
         "Ispanağı kavurun",
@@ -451,6 +483,7 @@
     {
       "id": 33,
       "name": "Kuru Patlıcan Dolması",
+      "imageUrl": "https://www.odamax.com/omag/wp-content/uploads/2023/03/en-iyi-turk-yemekleri.jpg",
       "ingredients": ["Kuru patlıcan", "Pirinç", "Kıyma", "Soğan", "Salça"],
       "instructions": [
         "Patlıcanları ıslatın",
@@ -465,6 +498,7 @@
     {
       "id": 34,
       "name": "Hamsi Tava",
+      "imageUrl": "https://www.odamax.com/omag/wp-content/uploads/2023/03/en-iyi-turk-yemekleri.jpg",
       "ingredients": ["Hamsi", "Mısır unu", "Tuz", "Karabiber", "Sıvı yağ"],
       "instructions": [
         "Hamsileri temizleyin",
@@ -479,6 +513,7 @@
     {
       "id": 35,
       "name": "Kıymalı Ispanak",
+      "imageUrl": "https://www.odamax.com/omag/wp-content/uploads/2023/03/en-iyi-turk-yemekleri.jpg",
       "ingredients": ["Ispanak", "Kıyma", "Soğan", "Sarımsak", "Zeytinyağı"],
       "instructions": [
         "Ispanakları doğrayın",
@@ -493,6 +528,7 @@
     {
       "id": 36,
       "name": "Patates Oturtma",
+      "imageUrl": "https://www.odamax.com/omag/wp-content/uploads/2023/03/en-iyi-turk-yemekleri.jpg",
       "ingredients": ["Patates", "Kıyma", "Beşamel sos", "Kaşar peyniri", "Süt"],
       "instructions": [
         "Patatesleri haşlayın",
@@ -507,6 +543,7 @@
     {
       "id": 37,
       "name": "Tavuklu Pilav",
+      "imageUrl": "https://www.odamax.com/omag/wp-content/uploads/2023/03/en-iyi-turk-yemekleri.jpg",
       "ingredients": ["Pirinç", "Tavuk göğsü", "Tereyağı", "Şehriye", "Et suyu"],
       "instructions": [
         "Pirinci ıslatın",
@@ -521,6 +558,7 @@
     {
       "id": 38,
       "name": "Etli Bamya",
+      "imageUrl": "https://www.odamax.com/omag/wp-content/uploads/2023/03/en-iyi-turk-yemekleri.jpg",
       "ingredients": ["Bamya", "Kuzu eti", "Soğan", "Domates", "Limon"],
       "instructions": [
         "Bamyaları temizleyin",
@@ -535,6 +573,7 @@
     {
       "id": 39,
       "name": "Fırında Türlü",
+      "imageUrl": "https://www.odamax.com/omag/wp-content/uploads/2023/03/en-iyi-turk-yemekleri.jpg",
       "ingredients": ["Patlıcan", "Kabak", "Patates", "Havuç", "Domates"],
       "instructions": [
         "Sebzeleri doğrayın",
@@ -549,6 +588,7 @@
     {
       "id": 40,
       "name": "Tavuklu Mantar Sote",
+      "imageUrl": "https://www.odamax.com/omag/wp-content/uploads/2023/03/en-iyi-turk-yemekleri.jpg",
       "ingredients": ["Tavuk göğsü", "Mantar", "Krema", "Soğan", "Sarımsak"],
       "instructions": [
         "Tavukları doğrayın",
@@ -563,6 +603,7 @@
     {
       "id": 41,
       "name": "Kıymalı Patates",
+      "imageUrl": "https://www.odamax.com/omag/wp-content/uploads/2023/03/en-iyi-turk-yemekleri.jpg",
       "ingredients": ["Patates", "Kıyma", "Soğan", "Domates", "Biber"],
       "instructions": [
         "Patatesleri dilimleyin",
@@ -577,6 +618,7 @@
     {
       "id": 42,
       "name": "Zeytinyağlı Kereviz",
+      "imageUrl": "https://www.odamax.com/omag/wp-content/uploads/2023/03/en-iyi-turk-yemekleri.jpg",
       "ingredients": ["Kereviz", "Havuç", "Patates", "Zeytinyağı", "Limon"],
       "instructions": [
         "Kerevizleri soyun",
@@ -591,6 +633,7 @@
     {
       "id": 43,
       "name": "Tavuklu Şehriye Çorbası",
+      "imageUrl": "https://www.odamax.com/omag/wp-content/uploads/2023/03/en-iyi-turk-yemekleri.jpg",
       "ingredients": ["Şehriye", "Tavuk", "Havuç", "Tereyağı", "Limon"],
       "instructions": [
         "Tavuk suyunu hazırlayın",
@@ -605,6 +648,7 @@
     {
       "id": 44,
       "name": "Etli Nohut",
+      "imageUrl": "https://www.odamax.com/omag/wp-content/uploads/2023/03/en-iyi-turk-yemekleri.jpg",
       "ingredients": ["Nohut", "Kuzu eti", "Soğan", "Domates salçası", "Biber salçası"],
       "instructions": [
         "Nohutları ıslatın",
@@ -619,6 +663,7 @@
     {
       "id": 45,
       "name": "Kabak Mücver",
+      "imageUrl": "https://www.odamax.com/omag/wp-content/uploads/2023/03/en-iyi-turk-yemekleri.jpg",
       "ingredients": ["Kabak", "Yumurta", "Un", "Dereotu", "Peynir"],
       "instructions": [
         "Kabakları rendeleyin",
@@ -633,6 +678,7 @@
     {
       "id": 46,
       "name": "Patlıcan Oturtma",
+      "imageUrl": "https://www.odamax.com/omag/wp-content/uploads/2023/03/en-iyi-turk-yemekleri.jpg",
       "ingredients": ["Patlıcan", "Kıyma", "Beşamel sos", "Kaşar peyniri", "Süt"],
       "instructions": [
         "Patlıcanları kızartın",
@@ -647,6 +693,7 @@
     {
       "id": 47,
       "name": "Tavuklu Bezelye",
+      "imageUrl": "https://www.odamax.com/omag/wp-content/uploads/2023/03/en-iyi-turk-yemekleri.jpg",
       "ingredients": ["Bezelye", "Tavuk göğsü", "Havuç", "Soğan", "Tereyağı"],
       "instructions": [
         "Tavukları doğrayın",
@@ -661,6 +708,7 @@
     {
       "id": 48,
       "name": "Kıymalı Karnabahar",
+      "imageUrl": "https://www.odamax.com/omag/wp-content/uploads/2023/03/en-iyi-turk-yemekleri.jpg",
       "ingredients": ["Karnabahar", "Kıyma", "Soğan", "Domates", "Biber"],
       "instructions": [
         "Karnabaharı haşlayın",
@@ -675,6 +723,7 @@
     {
       "id": 49,
       "name": "Zeytinyağlı Enginar",
+      "imageUrl": "https://www.odamax.com/omag/wp-content/uploads/2023/03/en-iyi-turk-yemekleri.jpg",
       "ingredients": ["Enginar", "Havuç", "Patates", "Bezelye", "Zeytinyağı"],
       "instructions": [
         "Enginarları temizleyin",
@@ -689,6 +738,7 @@
     {
       "id": 50,
       "name": "Tavuklu Bulgur Pilavı",
+      "imageUrl": "https://www.odamax.com/omag/wp-content/uploads/2023/03/en-iyi-turk-yemekleri.jpg",
       "ingredients": ["Bulgur", "Tavuk göğsü", "Soğan", "Domates salçası", "Tereyağı"],
       "instructions": [
         "Tavukları pişirin",
